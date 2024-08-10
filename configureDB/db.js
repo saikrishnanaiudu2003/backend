@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 const configureDB=async(req,res)=>{
     try{
-        await mongoose.connect('mongodb+srv://krishnalasyatalluri9:Lasya0425@tasks.8tzjo.mongodb.net/?retryWrites=true&w=majority&appName=Tasks',
+        await mongoose.connect('mongodb+srv://myAtlasDBUser:Sai123@myatlasclusteredu.qifwasp.mongodb.net/task?retryWrites=true&w=majority&appName=myAtlasClusterEDU',
             {
                 useNewUrlParser: true,
                 useUnifiedTopology: true,
