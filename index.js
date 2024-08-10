@@ -13,6 +13,7 @@ dotenv.config()
 configureDB()
 app.use('/user',userRouter)
 app.use('/task',taskRouter)
+
 app.listen(PORT,()=>{
     console.log('server running on port',PORT)
 })
